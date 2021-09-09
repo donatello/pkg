@@ -85,6 +85,15 @@ const (
 	// GetUserAdminAction - allows GET permission on user info
 	GetUserAdminAction = "admin:GetUser"
 
+	// Cluster Actions
+
+	// ClusterLinkAdminAction - link with a cluster
+	ClusterLinkAdminAction = "admin:ClusterLink"
+	// ClusterUnlinkAdminAction - unlink current cluster
+	ClusterUnlinkAdminAction = "admin:ClusterUnlink"
+	// ClusterInfoAdminAction - get linking info
+	ClusterInfoAdminAction = "admin:ClusterInfo"
+
 	// Service account Actions
 
 	// CreateServiceAccountAdminAction - allow create a service account for a user
