@@ -222,6 +222,9 @@ const (
 	// CreateSessionAction - S3Express REST API action
 	CreateSessionAction = "s3express:CreateSession"
 
+	// CreateWarehouseAction - CreateWarehouse REST API action
+	CreateWarehouseAction = "s3:CreateWarehouse"
+
 	// AllActions - all API actions
 	AllActions = "s3:*"
 )
@@ -290,6 +293,7 @@ var supportedActions = map[Action]struct{}{
 	ResetBucketReplicationStateAction:      {},
 	PutObjectFanOutAction:                  {},
 	CreateSessionAction:                    {},
+	CreateWarehouseAction:                  {},
 	AllActions:                             {},
 }
 
